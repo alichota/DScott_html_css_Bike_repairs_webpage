@@ -1,7 +1,50 @@
-.container{
+.container {
   width: 1024px;
-  background-color: green;
   min-height: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+header {
+  background-color: rgb(41, 96, 35);
+  min-height: 100px;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.herobox1 {
+  flex: 2;
+}
+
+.herobox2 {
+  flex: 1;
+}
+
+.cards{
+  background-color: rgb(40, 160, 40);
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1 {
+  background-color: rgb(213, 58, 130);
+  min-height: 100px;
+  width: 30%;
+}
+
+.card2 {
+  background-color: rgb(215, 108, 222);
+  min-height: 100px;
+  width: 30%;
+}
+
+.card3 {
+  background-color: rgb(213, 58, 90);
+  min-height: 100px;
+  width: 30%;
 }
