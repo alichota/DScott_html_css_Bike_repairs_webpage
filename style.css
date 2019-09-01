@@ -1,3 +1,13 @@
+html {
+  height: 120%;
+}
+
+body {
+  background-image: linear-gradient(#ea7e6a, #fa4083);
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
 .container {
   width: 1024px;
   min-height: 300px;
@@ -6,8 +16,27 @@
 }
 
 header {
-  background-color: rgb(41, 96, 35);
-  min-height: 100px;
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+}
+
+.logo {
+  flex: 1;
+}
+
+.navigation {
+  flex: 4;
+}
+
+nav {
+  text-align: right;
 }
 
 main {
@@ -25,7 +54,6 @@ main {
 }
 
 .cards{
-  background-color: rgb(40, 160, 40);
   min-height: 300px;
   display: flex;
   justify-content: space-between;
