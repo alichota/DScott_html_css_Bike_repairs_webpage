@@ -6,6 +6,7 @@ body {
   background-image: linear-gradient(#ea7e6a, #fa4083);
   font-family: 'Roboto', sans-serif;
   color: white;
+  font-size: 1.125rem;
 }
 
 .container {
@@ -18,13 +19,14 @@ body {
 header {
   display: flex;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 3.25rem;
   font-family: 'Playfair Display', serif;
+  margin-bottom: 1rem
 }
 
 .logo {
@@ -39,6 +41,11 @@ nav {
   text-align: right;
 }
 
+p {
+  line-height: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
 main {
   min-height: 300px;
   display: flex;
@@ -47,6 +54,7 @@ main {
 
 .herobox1 {
   flex: 2;
+  padding-right: 100px;
 }
 
 .herobox2 {
