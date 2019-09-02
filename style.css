@@ -41,6 +41,19 @@ nav {
   text-align: right;
 }
 
+.nav_button {
+  color: white;
+  font-family: "Playfair Display", serif;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 3px;
+  border: 1px solid white;
+}
+
+nav a.nav_button {
+  margin-left: 1px;
+}
+
 p {
   line-height: 1.6rem;
   margin-bottom: 0.5rem;
@@ -57,6 +70,20 @@ main {
   padding-right: 100px;
 }
 
+a{
+  text-decoration: none;
+}
+
+a.booking_button {
+  background-color: white;
+  color: #fa4083;
+  font-family: "Playfair Display", serif;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 3px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.228);
+}
+
 .herobox2 {
   flex: 1;
 }
@@ -65,10 +92,6 @@ main {
   display: flex;
   justify-content: space-between;
   text-align: center;
-}
-
-.cards img {
-  padding-top: 20px;
 }
 
 .cards a {
@@ -93,7 +116,7 @@ h2 {
 .cards p {
   font-size: 0.85rem;
   line-height: 1.2rem;
-  margin: 20px 30px 20px 30px;
+  margin-top: 20px;
 
 }
 
@@ -111,4 +134,9 @@ h2 {
   background-position: bottom;
   min-height: 250px;
   width: 30%;
+}
+
+.card1, .card2, .card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
 }
