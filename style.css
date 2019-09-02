@@ -1,5 +1,5 @@
 html {
-  height: 120%;
+  height: 110%;
 }
 
 body {
@@ -61,26 +61,31 @@ main {
   flex: 1;
 }
 
-.cards{
-  min-height: 300px;
+.cards {
   display: flex;
   justify-content: space-between;
 }
 
 .card1 {
-  background-color: rgb(213, 58, 130);
-  min-height: 100px;
+  background-image: url("images/image-background-card1.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
   width: 30%;
 }
 
 .card2 {
-  background-color: rgb(215, 108, 222);
-  min-height: 100px;
+  background-image: url("images/image-background-card2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
   width: 30%;
 }
 
 .card3 {
-  background-color: rgb(213, 58, 90);
-  min-height: 100px;
+  background-image: url("images/image-background-card3.jpg");
+  background-size: cover;
+  background-position: bottom;
+  min-height: 250px;
   width: 30%;
 }
