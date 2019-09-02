@@ -64,6 +64,11 @@ main {
 .cards {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+}
+
+.cards img {
+  padding-top: 20px;
 }
 
 .card1 {
@@ -72,6 +77,19 @@ main {
   background-position: bottom;
   min-height: 250px;
   width: 30%;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+  margin-top: 20px;
+}
+
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+  margin: 20px 30px 20px 30px;
+
 }
 
 .card2 {
