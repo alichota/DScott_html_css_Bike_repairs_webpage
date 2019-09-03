@@ -1,5 +1,4 @@
 html {
-  height: 110%;
 }
 
 body {
@@ -140,4 +139,19 @@ h2 {
 .card1, .card2, .card3 {
   padding: 30px 30px 20px 30px;
   box-sizing: border-box;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.tbox {
+  width: 47%;
+  padding: 50px;
+  border: 1px solid white;
+  box-sizing: border-box;
+  margin-top: 50px;
 }
