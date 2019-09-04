@@ -34,24 +34,49 @@ h1 {
 }
 
 .navigation {
-  flex: 4;
+  flex: 3;
 }
 
 nav {
   text-align: right;
 }
 
-.nav_button {
+ .nav_button {
   color: white;
   font-family: "Playfair Display", serif;
   padding: 10px 20px;
   display: inline-block;
   border-radius: 3px;
   border: 1px solid white;
+  position: relative;
 }
 
-nav a.nav_button {
+nav a {
   margin-left: 1px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.nav_button:hover .dropdown {
+  display: block;
+}
+
+ .dropdown .nav_button {
+  width: 120px;
+  background-color: white;
+}
+
+.dropdown .nav_button a {
+  color: #fa4083;
 }
 
 .nav_button:hover {
@@ -91,6 +116,7 @@ a.booking_button {
 
 .booking_button:hover {
   background-color: #e29283;
+  transition-duration: 1s;
 }
 
 .herobox2 {
