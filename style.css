@@ -164,3 +164,8 @@ h2 {
   box-sizing: border-box;
   margin-top: 50px;
 }
+
+.tbox p:last-of-type {
+  font-size: .8rem;
+  padding-left: 30px;
+}
