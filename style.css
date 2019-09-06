@@ -203,3 +203,8 @@ h2 {
   font-size: .8rem;
   padding-left: 30px;
 }
+
+.inputwrapper {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
